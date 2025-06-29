@@ -1,0 +1,88 @@
+.listings-page {
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+.listings-header {
+  text-align: center;
+  padding: 60px 20px 30px;
+  background-color: #f1f3f5;
+}
+
+.listings-header h1 {
+  font-size: 2.5rem;
+  color: #2a5298;
+}
+
+.listings-header p {
+  margin-top: 10px;
+  color: #666;
+}
+
+.listings-grid {
+  padding: 40px 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  background-color: #f9f9f9;
+}
+
+.listing-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.listing-card:hover {
+  transform: translateY(-5px);
+}
+
+.listing-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.listing-info {
+  padding: 20px;
+  text-align: left;
+}
+
+.listing-info h3 {
+  margin-bottom: 10px;
+  color: #2a5298;
+}
+
+.listing-info .price {
+  font-weight: bold;
+  color: #1e3c72;
+  margin-top: 8px;
+}
+
+.view-btn {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #2a5298;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.view-btn:hover {
+  background-color: #1e3c72;
+}
+
+/* Footer */
+.footer {
+  background-color: #2a5298;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+.footer p {
+  margin: 0;
+}
